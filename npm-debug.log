@@ -1,0 +1,218 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.9.1
+3 info using node@v0.10.31
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies loading dependencies from /Users/thomaswilding/Desktop/nutristrength/package.json
+6 verbose install where, deps [ '/Users/thomaswilding/Desktop/nutristrength',
+6 verbose install   [ 'body-parser',
+6 verbose install     'cookie-parser',
+6 verbose install     'debug',
+6 verbose install     'express',
+6 verbose install     'jade',
+6 verbose install     'morgan',
+6 verbose install     'serve-favicon',
+6 verbose install     'pg' ] ]
+7 verbose install where, peers [ '/Users/thomaswilding/Desktop/nutristrength', [] ]
+8 verbose installManyTop reading for lifecycle /Users/thomaswilding/Desktop/nutristrength/package.json
+9 info preinstall nutristrength@0.0.0
+10 verbose installManyTop reading scoped package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/body-parser/package.json
+11 verbose installManyTop reading scoped package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/cookie-parser/package.json
+12 verbose installManyTop reading scoped package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/debug/package.json
+13 verbose installManyTop reading scoped package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/express/package.json
+14 verbose installManyTop reading scoped package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/jade/package.json
+15 verbose installManyTop reading scoped package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/morgan/package.json
+16 verbose installManyTop reading scoped package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/serve-favicon/package.json
+17 verbose readDependencies loading dependencies from /Users/thomaswilding/Desktop/nutristrength/package.json
+18 verbose targetResolver reading package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/body-parser/package.json
+19 verbose targetResolver reading package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/cookie-parser/package.json
+20 verbose targetResolver reading package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/debug/package.json
+21 verbose targetResolver reading package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/express/package.json
+22 verbose targetResolver reading package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/jade/package.json
+23 verbose targetResolver reading package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/morgan/package.json
+24 verbose targetResolver reading package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/serve-favicon/package.json
+25 verbose targetResolver reading package data from /Users/thomaswilding/Desktop/nutristrength/node_modules/.bin/jade/package.json
+26 verbose already installed skipping express@~4.12.2 /Users/thomaswilding/Desktop/nutristrength
+27 verbose already installed skipping jade@~1.9.2 /Users/thomaswilding/Desktop/nutristrength
+28 verbose already installed skipping morgan@~1.5.1 /Users/thomaswilding/Desktop/nutristrength
+29 verbose already installed skipping serve-favicon@~2.2.0 /Users/thomaswilding/Desktop/nutristrength
+30 silly cache add args [ 'pg@9.4', null ]
+31 verbose cache add spec pg@9.4
+32 silly cache add parsed spec { raw: 'pg@9.4',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'pg',
+32 silly cache add   rawSpec: '9.4',
+32 silly cache add   spec: '>=9.4.0 <9.5.0',
+32 silly cache add   type: 'range' }
+33 silly addNamed pg@>=9.4.0 <9.5.0
+34 verbose addNamed ">=9.4.0 <9.5.0" is a valid semver range for pg
+35 silly addNameRange { name: 'pg', range: '>=9.4.0 <9.5.0', hasData: false }
+36 silly mapToRegistry name pg
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/pg
+40 verbose addNameRange registry:https://registry.npmjs.org/pg not in flight; fetching
+41 verbose already installed skipping body-parser@^1.12.3 /Users/thomaswilding/Desktop/nutristrength
+42 verbose already installed skipping cookie-parser@~1.3.4 /Users/thomaswilding/Desktop/nutristrength
+43 verbose already installed skipping debug@~2.1.1 /Users/thomaswilding/Desktop/nutristrength
+44 verbose request uri https://registry.npmjs.org/pg
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 16:57:51
+47 verbose request id 977a9453b67a4b8d
+48 verbose etag "CWJANWM65876VPHTH0EJXL8F5"
+49 http request GET https://registry.npmjs.org/pg
+50 http 304 https://registry.npmjs.org/pg
+51 silly get cb [ 304,
+51 silly get   { date: 'Sat, 09 May 2015 15:57:51 GMT',
+51 silly get     via: '1.1 varnish',
+51 silly get     'cache-control': 'max-age=60',
+51 silly get     etag: '"CWJANWM65876VPHTH0EJXL8F5"',
+51 silly get     age: '0',
+51 silly get     connection: 'keep-alive',
+51 silly get     'x-served-by': 'cache-lhr6321-LHR',
+51 silly get     'x-cache': 'HIT',
+51 silly get     'x-cache-hits': '1',
+51 silly get     'x-timer': 'S1431187071.383130,VS0,VE156',
+51 silly get     vary: 'Accept' } ]
+52 verbose etag https://registry.npmjs.org/pg from cache
+53 verbose get saving pg to /Users/thomaswilding/.npm/registry.npmjs.org/pg/.cache.json
+54 silly addNameRange number 2 { name: 'pg', range: '>=9.4.0 <9.5.0', hasData: true }
+55 silly addNameRange versions [ 'pg',
+55 silly addNameRange   [ '0.4.1',
+55 silly addNameRange     '0.5.0',
+55 silly addNameRange     '0.5.1',
+55 silly addNameRange     '0.5.2',
+55 silly addNameRange     '0.5.3',
+55 silly addNameRange     '0.5.4',
+55 silly addNameRange     '0.5.5',
+55 silly addNameRange     '0.5.6',
+55 silly addNameRange     '0.5.7',
+55 silly addNameRange     '0.5.8',
+55 silly addNameRange     '0.6.0',
+55 silly addNameRange     '0.6.1',
+55 silly addNameRange     '0.6.2',
+55 silly addNameRange     '0.6.3',
+55 silly addNameRange     '0.6.4',
+55 silly addNameRange     '0.6.5',
+55 silly addNameRange     '0.6.6',
+55 silly addNameRange     '0.6.7',
+55 silly addNameRange     '0.6.8',
+55 silly addNameRange     '0.6.9',
+55 silly addNameRange     '0.6.10',
+55 silly addNameRange     '0.6.11',
+55 silly addNameRange     '0.6.12',
+55 silly addNameRange     '0.6.13',
+55 silly addNameRange     '0.6.14',
+55 silly addNameRange     '0.6.15',
+55 silly addNameRange     '0.6.16',
+55 silly addNameRange     '0.6.17',
+55 silly addNameRange     '0.6.18',
+55 silly addNameRange     '0.7.0',
+55 silly addNameRange     '0.7.1',
+55 silly addNameRange     '0.7.2',
+55 silly addNameRange     '0.8.0',
+55 silly addNameRange     '0.8.1',
+55 silly addNameRange     '0.8.2',
+55 silly addNameRange     '0.8.3',
+55 silly addNameRange     '0.8.4',
+55 silly addNameRange     '0.8.6',
+55 silly addNameRange     '0.8.7',
+55 silly addNameRange     '0.8.8',
+55 silly addNameRange     '0.9.0',
+55 silly addNameRange     '0.10.0',
+55 silly addNameRange     '0.10.2',
+55 silly addNameRange     '0.11.1',
+55 silly addNameRange     '0.11.2',
+55 silly addNameRange     '0.11.3',
+55 silly addNameRange     '0.12.0',
+55 silly addNameRange     '0.12.1',
+55 silly addNameRange     '0.12.3',
+55 silly addNameRange     '0.13.0',
+55 silly addNameRange     '0.13.1',
+55 silly addNameRange     '0.13.3',
+55 silly addNameRange     '0.14.0',
+55 silly addNameRange     '0.14.1',
+55 silly addNameRange     '0.15.0',
+55 silly addNameRange     '0.15.1',
+55 silly addNameRange     '1.0.0',
+55 silly addNameRange     '1.0.1',
+55 silly addNameRange     '1.0.2',
+55 silly addNameRange     '1.0.3',
+55 silly addNameRange     '1.0.4',
+55 silly addNameRange     '1.1.0',
+55 silly addNameRange     '1.1.1',
+55 silly addNameRange     '1.1.2',
+55 silly addNameRange     '1.1.3',
+55 silly addNameRange     '1.2.0',
+55 silly addNameRange     '1.3.0',
+55 silly addNameRange     '2.0.0',
+55 silly addNameRange     '2.1.0',
+55 silly addNameRange     '2.2.0',
+55 silly addNameRange     '2.3.0',
+55 silly addNameRange     '2.3.1',
+55 silly addNameRange     '2.4.0',
+55 silly addNameRange     '2.5.0',
+55 silly addNameRange     '2.5.1',
+55 silly addNameRange     '2.6.0',
+55 silly addNameRange     '2.6.1',
+55 silly addNameRange     '2.6.2',
+55 silly addNameRange     '2.7.0',
+55 silly addNameRange     '2.8.0',
+55 silly addNameRange     '2.8.1',
+55 silly addNameRange     '2.8.2',
+55 silly addNameRange     '2.8.3',
+55 silly addNameRange     '2.8.4',
+55 silly addNameRange     '2.8.5',
+55 silly addNameRange     '2.9.0',
+55 silly addNameRange     '2.10.0',
+55 silly addNameRange     '2.11.0',
+55 silly addNameRange     '2.11.1',
+55 silly addNameRange     '3.0.2',
+55 silly addNameRange     '3.0.3',
+55 silly addNameRange     '3.1.0',
+55 silly addNameRange     '3.2.0',
+55 silly addNameRange     '3.3.0',
+55 silly addNameRange     '3.4.0',
+55 silly addNameRange     '3.4.1',
+55 silly addNameRange     '3.4.2',
+55 silly addNameRange     '3.4.3',
+55 silly addNameRange     '3.4.4',
+55 silly addNameRange     '3.4.5',
+55 silly addNameRange     '3.5.0',
+55 silly addNameRange     '3.6.0',
+55 silly addNameRange     '4.0.0-beta2',
+55 silly addNameRange     '3.6.1',
+55 silly addNameRange     '3.6.2',
+55 silly addNameRange     '3.6.3',
+55 silly addNameRange     '4.0.0',
+55 silly addNameRange     '4.1.0',
+55 silly addNameRange     '4.1.1',
+55 silly addNameRange     '4.2.0',
+55 silly addNameRange     '4.3.0' ] ]
+56 verbose stack Error: No compatible version found: pg@'>=9.4.0 <9.5.0'
+56 verbose stack Valid install targets:
+56 verbose stack ["0.4.1","0.5.0","0.5.1","0.5.2","0.5.3","0.5.4","0.5.5","0.5.6","0.5.7","0.5.8","0.6.0","0.6.1","0.6.2","0.6.3","0.6.4","0.6.5","0.6.6","0.6.7","0.6.8","0.6.9","0.6.10","0.6.11","0.6.12","0.6.13","0.6.14","0.6.15","0.6.16","0.6.17","0.6.18","0.7.0","0.7.1","0.7.2","0.8.0","0.8.1","0.8.2","0.8.3","0.8.4","0.8.6","0.8.7","0.8.8","0.9.0","0.10.0","0.10.2","0.11.1","0.11.2","0.11.3","0.12.0","0.12.1","0.12.3","0.13.0","0.13.1","0.13.3","0.14.0","0.14.1","0.15.0","0.15.1","1.0.0","1.0.1","1.0.2","1.0.3","1.0.4","1.1.0","1.1.1","1.1.2","1.1.3","1.2.0","1.3.0","2.0.0","2.1.0","2.2.0","2.3.0","2.3.1","2.4.0","2.5.0","2.5.1","2.6.0","2.6.1","2.6.2","2.7.0","2.8.0","2.8.1","2.8.2","2.8.3","2.8.4","2.8.5","2.9.0","2.10.0","2.11.0","2.11.1","3.0.2","3.0.3","3.1.0","3.2.0","3.3.0","3.4.0","3.4.1","3.4.2","3.4.3","3.4.4","3.4.5","3.5.0","3.6.0","4.0.0-beta2","3.6.1","3.6.2","3.6.3","4.0.0","4.1.0","4.1.1","4.2.0","4.3.0"]
+56 verbose stack
+56 verbose stack     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:262:12)
+56 verbose stack     at next (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:241:17)
+56 verbose stack     at setData (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:218:5)
+56 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+56 verbose stack     at f (/usr/local/lib/node_modules/npm/node_modules/once/once.js:17:25)
+56 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:173:7)
+56 verbose stack     at Object.oncomplete (fs.js:107:15)
+57 verbose cwd /Users/thomaswilding/Desktop/nutristrength
+58 error Darwin 14.0.0
+59 error argv "node" "/usr/local/bin/npm" "install"
+60 error node v0.10.31
+61 error npm  v2.9.1
+62 error code ETARGET
+63 error notarget No compatible version found: pg@'>=9.4.0 <9.5.0'
+63 error notarget Valid install targets:
+63 error notarget ["0.4.1","0.5.0","0.5.1","0.5.2","0.5.3","0.5.4","0.5.5","0.5.6","0.5.7","0.5.8","0.6.0","0.6.1","0.6.2","0.6.3","0.6.4","0.6.5","0.6.6","0.6.7","0.6.8","0.6.9","0.6.10","0.6.11","0.6.12","0.6.13","0.6.14","0.6.15","0.6.16","0.6.17","0.6.18","0.7.0","0.7.1","0.7.2","0.8.0","0.8.1","0.8.2","0.8.3","0.8.4","0.8.6","0.8.7","0.8.8","0.9.0","0.10.0","0.10.2","0.11.1","0.11.2","0.11.3","0.12.0","0.12.1","0.12.3","0.13.0","0.13.1","0.13.3","0.14.0","0.14.1","0.15.0","0.15.1","1.0.0","1.0.1","1.0.2","1.0.3","1.0.4","1.1.0","1.1.1","1.1.2","1.1.3","1.2.0","1.3.0","2.0.0","2.1.0","2.2.0","2.3.0","2.3.1","2.4.0","2.5.0","2.5.1","2.6.0","2.6.1","2.6.2","2.7.0","2.8.0","2.8.1","2.8.2","2.8.3","2.8.4","2.8.5","2.9.0","2.10.0","2.11.0","2.11.1","3.0.2","3.0.3","3.1.0","3.2.0","3.3.0","3.4.0","3.4.1","3.4.2","3.4.3","3.4.4","3.4.5","3.5.0","3.6.0","4.0.0-beta2","3.6.1","3.6.2","3.6.3","4.0.0","4.1.0","4.1.1","4.2.0","4.3.0"]
+63 error notarget
+63 error notarget This is most likely not a problem with npm itself.
+63 error notarget In most cases you or one of your dependencies are requesting
+63 error notarget a package version that doesn't exist.
+63 error notarget
+63 error notarget It was specified as a dependency of 'nutristrength'
+64 verbose exit [ 1, true ]
