@@ -1,13 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/submitCustomerData', function(req, res, next) {
-  // res.render('index', { title: 'Express' });
+/* POST customer data */
+router.post('/submitCustomerData', function(req, res, next) {
   fs = require('fs');
-  fs.writeFile('helloworld.txt', 'Hello World!', function (err) {
+  fs.appendFile('customerSignup.txt', JSON.stringify(req.body) + ',', function (err) {
     if (err) return console.log(err);
-    console.log('Hello World > helloworld.txt');
   });
 });
 
