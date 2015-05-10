@@ -6,6 +6,6 @@ $(document).ready(function() {
   						email: $("#email").val(),
   						number: $("#number").val()
   					};
-  		$.post("http://0.0.0.0/submitCustomerData", details, function(data){});
+  		$.post("http://174.129.214.152:80/submitCustomerData", details, function(data){});
 	});
 });
