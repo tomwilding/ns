@@ -7,5 +7,6 @@ $(document).ready(function() {
   						number: $("#number").val()
   					};
   		$.post("http://immense-wave-9569.herokuapp.com/submitCustomerData", details, function(data){});
+		$(':input').val('');
 	});
 });
