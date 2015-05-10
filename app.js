@@ -10,11 +10,11 @@ var users = require('./routes/users');
 
 var app = express();
 
-// var pg = require('pg'); 
-// var connectionString = "postgres://mrvgznqwjrhmfo:0O7cEIHVZ1kXXIHyLQ1nvcifwK@ec2-23-21-96-129.compute-1.amazonaws.com:5432/dbo8l3cdcfpk01";
-// pg.connect(connectionString, function(err, client) {
-//   client.query("CREATE TABLE IF NOT EXISTS customers(firstname varchar(64), lastname varchar(64))");
-// };
+var pg = require('pg'); 
+var connectionString = "postgres://mrvgznqwjrhmfo:0O7cEIHVZ1kXXIHyLQ1nvcifwK@ec2-23-21-96-129.compute-1.amazonaws.com:5432/dbo8l3cdcfpk01";
+pg.connect(connectionString, function(err, client) {
+  client.query("CREATE TABLE IF NOT EXISTS customers(firstname varchar(64), lastname varchar(64))");
+};
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
