@@ -6016,9 +6016,9 @@ body {
   color: #333333;
     font-size: 14px;
 }
-a { color: #A82434; }
+a { color: #c41230; }
 a:hover,
-.vertnav-side li.current > a { color: #A82434; }
+.vertnav-side li.current > a { color: #c41230; }
 
 
 
@@ -6145,13 +6145,13 @@ li.level0 > a:hover > span > .pin-bottom:before,
 
 #mobnav-trigger:hover
 {
-  background-color: #A82434;
+  background-color: #c41230;
   color: #ffffff;
 }
 
 #mobnav-trigger.active
 {
-  background-color: #A82434;
+  background-color: #c41230;
   color: #ffffff;
 }
 
@@ -6185,7 +6185,7 @@ li.level0 > a:hover > span > .pin-bottom:before,
 #nav > li:hover > a,
 .vertnav-top li > a:hover
 {
-  background-color: #A82434;
+  background-color: #c41230;
   color: #ffffff;
 }
 
@@ -6369,25 +6369,25 @@ li.level0 > a:hover > span > .pin-bottom:before,
 
 button.button span
 {
-  background-color: #A82434;
+  background-color: #c41230;
   color: #ffffff;
 }
 button.button:hover span
 {
-  background-color: #A82434;
+  background-color: #c41230;
   color: #ffffff;
 }
 
 .product-view .btn-cart span,
 button.btn-checkout span
 {
-  background-color: #A82434;
+  background-color: #c41230;
   color: #ffffff;
 }
 .product-view .btn-cart:hover span,
 button.btn-checkout:hover span
 {
-  background-color: #A82434;
+  background-color: #c41230;
   color: #ffffff;
 }
 
@@ -6400,12 +6400,12 @@ button.btn-checkout:hover span
 
 
 
-.price-box .price { color: #A82434; }
+.price-box .price { color: #c41230; }
 
 
 
 .sticker.new {
-  background-color: #A82434;
+  background-color: #c41230;
   color: #ffffff;
 }
 .sticker.sale {
@@ -6428,10 +6428,10 @@ span.icon-hover:hover,
 
 
 .social-links span.icon {
-  background-color: #A82434;
+  background-color: #c41230;
 }
 .social-links span.icon-hover:hover {
-  background-color: #A82434;
+  background-color: #c41230;
 }
 
 
