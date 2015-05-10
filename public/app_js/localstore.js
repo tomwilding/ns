@@ -6,6 +6,6 @@ $(document).ready(function() {
   						email: $("#email").val(),
   						number: $("#number").val()
   					};
-  		$.post("http://localhost:3000/submitCustomerData", details, function(data){});
+  		$.post("http://0.0.0.0/submitCustomerData", details, function(data){});
 	});
 });
