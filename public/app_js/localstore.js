@@ -6,7 +6,6 @@ $(document).ready(function() {
   						email: $("#email").val(),
   						number: $("#number").val()
   					};
-  		var url = process.env.PORT || '3000';
   		$.post("http://immense-wave-9569.herokuapp.com/submitCustomerData", details, function(data){});
 	});
 });
