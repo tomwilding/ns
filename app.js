@@ -10,11 +10,11 @@ var users = require('./routes/users');
 
 var app = express();
 
-var pg = require('pg'); 
-pg.connect(process.env.DATABASE_URL, function(err, client) {
-  client.query("DELETE FROM customers;");
-  client.query("DROP TABLE customers;");
-});
+// var pg = require('pg'); 
+// pg.connect(process.env.DATABASE_URL, function(err, client) {
+//   client.query("DELETE FROM customers;");
+//   client.query("DROP TABLE customers;");
+// });
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
