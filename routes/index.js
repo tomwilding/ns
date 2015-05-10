@@ -7,9 +7,7 @@ router.post('/submitCustomerData', function(req, res, next) {
   // fs.appendFile('customerSignup.txt', JSON.stringify(req.body) + ',', function (err) {
   //   if (err) return console.log(err);
   // });
-	var pg = require('pg');
-	pg.connect(process.env.DATABASE_URL, function(err, client) {});
-	
+	var pg = require('pg');	
 	var connectionString = "postgres://mrvgznqwjrhmfo:0O7cEIHVZ1kXXIHyLQ1nvcifwK@ec2-23-21-96-129.compute-1.amazonaws.com:5432/dbo8l3cdcfpk01"
 	pg.connect(connectionString, function(err, client) {
 		client.query("CREATE TABLE IF NOT EXISTS customers(firstname varchar(64), lastname varchar(64))");
